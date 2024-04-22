@@ -9,7 +9,7 @@ public class PingController {
 
     @GetMapping("/ping/{param}")
     public String ping(@PathVariable String param) {
-        return "Response is: (" + param + ")";
+        return "Response dxxxxx is: (" + param + ")";
     }
 
 }
